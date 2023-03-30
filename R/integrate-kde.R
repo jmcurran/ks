@@ -2,7 +2,7 @@
 ## Cumulative integral for KDE
 #############################################################################
 
-integral.kde <- function(q, fhat, density) #, exact=FALSE)
+integral.kde <- function(q, fhat, density) 
 {
     gridsize <- length(fhat$eval.points)
 
